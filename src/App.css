@@ -1,22 +1,98 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body {
+  font-family: "Open Sans", serif;
+  background: linear-gradient(to right, #616caf,  #0daae7); 
+  /* background-color: gray; */
+  /* background: rgb(148, 58, 58); */
+
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.wrapper {
+  /* background-color: rgb(182, 102, 102); */
+  height: 100%;
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #09d3ac;
+.form-container {
+  background-color: #dadfe4;
+  box-shadow: 0px 13px 20px -5px rgba(0,0,0,0.75);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  height: 50vh;
+  padding-top: 80px;
+  padding-left: 20px;
+  display: flex;
+  margin: auto;
 }
+
+
+.main {
+  height: 100%;
+  /* background: #fff; */
+  /* box-shadow: 0px 13px 20px -5px rgba(0,0,0,0.75); */
+  /* width: 58%; */
+  margin: 0 auto;
+  margin-bottom:50px;
+  margin-top:30px;
+}
+
+.title{
+  background-color:rgb(74, 52, 170);
+  /* border: solid 12px green; */
+  /* border-radius: 12px; */
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 0px 13px 20px -5px rgba(0,0,0,0.75);
+
+  color:white;
+  padding:20px;
+  padding-left:30px;
+  width: 100%;
+}
+
+input[type="text"] {
+  display: flexbox;
+  background-color: semi-transparent;
+  border: 0;
+  border-bottom: solid 1px #1b5dd6;
+  border-right: solid 1px #1b5dd6;
+  width: 100%;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  /* color: #fff !important;  */
+  font-weight: lighter;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+
+button {
+  /* border: solid 12px green; */
+  border-radius: 12px;
+  border-collapse: separate; 
+  padding: 8px 20px;
+  /* margin: 0 2px;  */
+  perspective: 12px;
+  /* font-weight: lighter; */
+  /* letter-spacing: 1px; */
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #1b5dd6;
+  color: #fff;
+  /* font-weight: 10; */
+}
+
+.weather_info {
+  width: 100%;
+  font-size: 25px;
+  padding-left: 10px;
+  font-weight: 200;
+  color:black;
+}
+
